@@ -8,9 +8,9 @@
 		"Kevin Murphy"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/project/tectonic",
-		"sources": "https://github.com/murphy-slaw/deeperoceans_refabricated",
-		"issues": "https://github.com/murphy-slaw/deeperoceans_refabricated/issues"
+		"homepage": "https://modrinth.com/project/deeper-oceans-refabricated",
+		"sources": "https://github.com/murphy-slaw/deeper_oceans_refabricated",
+		"issues": "https://github.com/murphy-slaw/deeper_oceans_refabricated/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/deeper-oceans/pack.png",
