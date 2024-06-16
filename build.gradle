@@ -5,7 +5,7 @@
 	id "com.modrinth.minotaur" version "2.+"
 }
 
-version = project.mod_version
+version = "${project.mod_version}-${project.minecraft_version}"
 group = project.maven_group
 
 base {
@@ -97,7 +97,7 @@ modrinth {
 	projectId = "deeper-oceans-refabricated" // This can be the project ID or the slug. Either will work!
 	versionType = "release" // This is the default -- can also be `beta` or `alpha`
 	uploadFile = remapJar // With Loom, this MUST be set to `remapJar` instead of `jar`!
-	gameVersions = ["1.20.1"] // Must be an array, even with only one version
+	gameVersions = ["${minecraft_version}"] // Must be an array, even with only one version
 	dependencies { // A special DSL for creating dependencies
 		// scope.type
 		// The scope can be `required`, `optional`, `incompatible`, or `embedded`
